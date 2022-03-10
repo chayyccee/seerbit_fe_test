@@ -15,3 +15,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'avenir';
+  src: url('./assets/fonts/AvenirLTStd-Book.otf') format('opentype');
+}

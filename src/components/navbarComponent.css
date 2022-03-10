@@ -1,0 +1,47 @@
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #fff; */
+  /* border-bottom: 1px solid #e5e5e5; */
+  height: 70px;
+}
+
+.navbar__left__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    color: #182754;
+    font-family: avenir;
+}
+
+.navbar__right__items_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__price {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    color: #182754;
+    font-family: avenir;
+    margin-left: 2rem;
+}
+
+.navbar__cart__icon {
+    margin-left: 2rem;
+}
+
+.navbar__middle__logo__image {
+    position: absolute;
+    left: 727px;
+    top: -70px;
+}
+
+.navbar__middle__logo__image__mobile {
+       position: absolute;
+       left: 0px;
+        top: -75px;
+}
