@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
+import BodyComponent from './components/BodyComponent';
+import FooterComponent from './components/FooterComponent';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
+    <>
+      <BodyComponent />
+      <FooterComponent />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
@@ -50,8 +52,8 @@ function App() {
             React Redux
           </a>
         </span>
-      </header>
-    </div>
+  </header> */}
+    </>
   );
 }
 
