@@ -22,7 +22,7 @@ const NavBarComponent: React.FC = () => {
       {isDesktop ? (<div className='navbar__left__text'>
        Follow - Fb. / Tw. / In.
       </div>) : (null)}
-      <div className='navbar__middle__logo'>
+      <div className={isMobile ? 'navbar__middle__logo__mobile' : 'navbar__middle__logo'}>
         <img
           className={isMobile ? 'navbar__middle__logo__image__mobile' : 'navbar__middle__logo__image'}
           style={{
