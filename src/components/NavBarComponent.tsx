@@ -17,6 +17,7 @@ import './navbarComponent.css';
 const NavBarComponent: React.FC = () => {
     const isDesktop: boolean = useDesktopMedia();
     const isMobile: boolean = useMedia('(max-width: 768px)');
+
   return (
     <div className='navbar__container'>
       {isDesktop ? (<div className='navbar__left__text'>
