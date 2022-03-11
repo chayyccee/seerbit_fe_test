@@ -5,13 +5,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template. This project is a
 frontend skill assessment and test given by Seerbit.
 
-The task is to code this figma design seen [Here](https://www.figma.com/file/e04sjvE3tYs10nmkkHwM3n/FE-TEST?node-id=1%3A3) .
-
-App is written in react-typescript, CSS and HTML.
+The task is to code this figma design seen [Here](https://www.figma.com/file/e04sjvE3tYs10nmkkHwM3n/FE-TEST?node-id=1%3A3).
+![Screenshot](https://github.com/chayyccee/seerbit_fe_test/blob/main/src/assets/images/screenshot/Screenshot%202022-03-11%20025642.png)
 
 # App - Client
 
 Open [App](https://seerbit-fe-test-chinedu.netlify.app/) to view the completed task in your browser.
+The app is written in react-typescript, CSS and HTML.
 
 ## Available Scripts
 
